@@ -14,3 +14,6 @@ Next step is to install esp skainet
 ```bash
 git clone --branch ESP32-S3-Devkit-C --recursive https://github.com/0015/esp-skainet.git
 ```
+```bash
+cd esp-skainet
+```
