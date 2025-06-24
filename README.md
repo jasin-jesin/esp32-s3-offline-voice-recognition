@@ -1,10 +1,10 @@
 # esp32-s3-offline-voice-recognition
+
+open cmd and type:-
 ```bash
-git clone --branch ESP32-S3-Devkit-C --recursive git@github.com:0015/esp-skainet.git
+git clone -b v4.4.6 --recursive https://github.com/espressif/esp-idf.git
 ```
-## Table of Contents
-- [About](#about)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Features](#features)
-- [Installation](#installation)
+```bash
+cd esp-idf
+install.bat
+```
