@@ -6,7 +6,7 @@ Make sure you installed the esp idf. To install type this in your cmd
 git clone -b v4.4.6 --recursive https://github.com/espressif/esp-idf.git
 ```
 ```bash
-cd esp-idf
+cd esp-idf-v4.4.6
 install.bat
 ```
 ## ESP SKAINET
