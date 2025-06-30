@@ -74,4 +74,4 @@ import nltk
 nltk.download('cmudict')
 nltk.download('averaged_perceptron_tagger_eng')
 ```
-Download [multinet_g2p.py](./src/multinet_g2p.py) and uplad it onto collab files -->content
+Download [multinet_g2p.py](/multinet_g2p.py) and uplad it onto collab files -->content
