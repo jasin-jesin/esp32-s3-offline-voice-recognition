@@ -1,7 +1,7 @@
 # esp32-s3-offline-voice-recognition
 
 ## ESP IDF
-Make sure you installed the esp idf. To install type this in your cmd.
+Make sure you installed the esp idf version 4.4.6. To install type this in your cmd.
 ```bash
 git clone -b v4.4.6 --recursive https://github.com/espressif/esp-idf.git
 ```
