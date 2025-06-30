@@ -1,4 +1,4 @@
-# esp32-s3-offline-voice-recognition
+# Esp32-s3-offline-voice-recognition
 
 ## ESP IDF
 Make sure you installed the esp idf version 4.4.6. To install type this in your cmd.
