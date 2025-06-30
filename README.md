@@ -75,3 +75,32 @@ nltk.download('cmudict')
 nltk.download('averaged_perceptron_tagger_eng')
 ```
 Download [multinet_g2p.py](/multinet_g2p.py) and uplad it onto collab files -->content
+
+Substitute turn off led with your command
+```bash
+!python multinet_g2p.py -t "turn off led"
+```
+run menuconfig again
+```bash
+idf.py menuconfig
+```
+Select model ESP Speech Recognition -->  English Speech Commands Model --> english recognition (mn5q8_en)
+
+ctrl+s to save
+
+then move one step backward then --> Add English speech commands
+
+Empty all the id's and substitute with the output you got after running the collab
+
+ctrl+s to save and Q to quit
+
+```bash
+idf.py fullclean
+```
+```bash
+idf.py build
+```
+```bash
+idf.py flash monitor
+```
+Now U can start testing it the default wake command is Hi ESP.
