@@ -49,6 +49,8 @@ make sure use set the Audio HAL to ESP32-S3-DEVKIT-C .
 ```bash
 idf.py menuconfig
 ```
+Substitute main.c with [main.c](/main.c)
+
 Now run the build by executing.
 ```bash
 idf.py build
