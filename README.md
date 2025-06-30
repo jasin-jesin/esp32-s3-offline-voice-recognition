@@ -58,3 +58,18 @@ Next we flash the code to esp32 s3 and to turn on the monitor.
 idf.py flash monitor
 ```
 Now U can start testing it the default wake command is Hi ESP.
+
+## Custom Commands and GPIO Controls
+Open google collab(becuase:-In windows most of the time it's not working)
+install gp2-en
+```bash
+pip install g2p-en
+```
+install dependencies
+```bash
+!pip install nltk
+import nltk
+nltk.download('cmudict')
+nltk.download('averaged_perceptron_tagger_eng')
+```
+Download [multinet_g2p.py](./src/multinet_g2p.py) and uplad it onto collab files -->content
