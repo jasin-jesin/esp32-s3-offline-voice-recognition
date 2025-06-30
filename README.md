@@ -80,7 +80,7 @@ Substitute turn off led with your command
 ```bash
 !python multinet_g2p.py -t "turn off led"
 ```
-run menuconfig again
+Come back to cmd and run menuconfig again
 ```bash
 idf.py menuconfig
 ```
