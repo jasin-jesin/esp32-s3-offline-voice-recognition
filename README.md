@@ -4,48 +4,20 @@
 esp32-s3-offline-voice-recognition enables the ESP32-S3 microcontroller to recognize voice commands completely offline—no cloud, no latency, and your data stays private.
 
 Powered by Espressif’s ESP‑SR library (featuring the MultiNet model), it supports up to 300 Chinese or English voice commands that can be customized on the fly 
-Waveshare
-+12
-GitHub
-+12
-GitHub
-+12
-.
+Waveshare.
 
-Includes an Audio Front-End (AFE) that optimizes input using noise suppression, voice activity detection, and even echo cancellation 
-GitHub
-.
+Includes an Audio Front-End (AFE) that optimizes input using noise suppression, voice activity detection, and even echo cancellatiion.
 
 Offers both single‑recognition mode (detects a command and stops) and continuous‑recognition mode, running until the device times out 
-Home Assistant Community
-+11
-Espressif Docs
-+11
-Espressif Docs
-+11
-.
+Home Assistant Community.
 
 ## How It Works
 
-Hardware: Uses the dual-core ESP32‑S3—a microcontroller with AI‑optimized instructions, built‑in Wi‑Fi/Bluetooth, and support for external PSRAM/flash memory 
-Wikipedia
-+5
-Wikipedia
-+5
-GitHub
-+5
-.
+Hardware: Uses the dual-core ESP32‑S3—a microcontroller with AI‑optimized instructions, built‑in Wi‑Fi/Bluetooth, and support for external PSRAM/flash memory.
 
 Voice Input & Processing: Audio is captured via a microphone, pre‑processed by AFE (noise suppression, VAD, etc.), then passed to the MultiNet model.
 
-Command Recognition: The model matches audio input to a spoken command (Chinese or English), with support for up to 300 custom commands dynamically editable 
-dfrobot.com
-+4
-GitHub
-+4
-Espressif Docs
-+4
-.
+Command Recognition: The model matches audio input to a spoken command (Chinese or English), with support for up to 300 custom commands dynamically editable.
 
 Action Trigger: Recognized commands can trigger hardware or software actions—like toggling LEDs, relaying signals, or interfacing with other peripherals.
 
@@ -55,10 +27,7 @@ Privacy‑First: Functions completely offline, device does not send your voice d
 
 Fast & Efficient: Optimized AI model and AFE deliver low-latency command recognition.
 
-Highly Customizable: Add, remove, or modify commands (both English and Chinese) without retraining the model 
-dfrobot.com
-+1
-.
+Highly Customizable: Add, remove, or modify commands (both English and Chinese) without retraining the model.
 
 Edge-Ready: Perfect for smart-home controllers, voice-activated gadgets, or IoT devices where connectivity or privacy is a concern.
 ##  How To Install and Program
