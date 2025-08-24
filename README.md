@@ -1,5 +1,5 @@
 # Esp32-s3-offline-voice-recognition
-Project Overview
+##Project Overview
 
 esp32-s3-offline-voice-recognition enables the ESP32-S3 microcontroller to recognize voice commands completely offline—no cloud, no latency, and your data stays private.
 
@@ -25,7 +25,7 @@ Espressif Docs
 +11
 .
 
-How It Works
+##How It Works
 
 Hardware: Uses the dual-core ESP32‑S3—a microcontroller with AI‑optimized instructions, built‑in Wi‑Fi/Bluetooth, and support for external PSRAM/flash memory 
 Wikipedia
@@ -49,7 +49,7 @@ Espressif Docs
 
 Action Trigger: Recognized commands can trigger hardware or software actions—like toggling LEDs, relaying signals, or interfacing with other peripherals.
 
-Why Use This Project?
+##Why Use This Project?
 
 Privacy‑First: Functions completely offline, device does not send your voice data to external servers.
 
@@ -61,6 +61,7 @@ dfrobot.com
 .
 
 Edge-Ready: Perfect for smart-home controllers, voice-activated gadgets, or IoT devices where connectivity or privacy is a concern.
+##How To Install and Program
 ## ESP IDF
 Make sure you installed the esp idf version 4.4.6. To install type this in your cmd.
 ```bash
